@@ -31,6 +31,58 @@ nav ul li a {
     justify-content: center;
     color: #fff;
 }
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-content {
+    width: 40%;
+}
+
+.about-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    font-size: 08e.m;
+    line-height: 1.5;
+}
+
+/* Gambar di sebelah kanan */
+.about-images {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-images img {
+    width: 70%;
+    border: 5px solid black;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.image-1 {
+    position: absolute; /* Gambar pertama */
+    z-index: 0;
+}
+
+.image-2 {
+    position: relative; /* Gambar kedua bertumpuk */
+    top: 60px;
+    left: 80px;
+    z-index: 1;
+}
+
 .dokumentasi-foto {
     border-radius: 1rem;
 }
