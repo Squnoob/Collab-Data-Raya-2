@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const profiles = {
     "syadith": {
-        image: "../Foto Anggota/syadith.jpg.",
+        image: "../Foto Anggota/syadith.jpg",
         name: "Aqyra Syadith Iswara",
         title: "Cief of The Team",
         bio: "Pemuda soleh yang menempuh pendidikan program studi Bisnis Digital di Universitas Negeri Jakarta. Lulus dari SMA Suluh Jakarta jurusan IPS, saya memiliki ketertarikan untuk menuntut ilmu terkait teknologi digital dan ingin menjadi seorang Web Developer/Master di masa depan. Selain itu, saya juga tertarik dalam Game Developing"
