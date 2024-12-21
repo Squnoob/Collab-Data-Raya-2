@@ -37,10 +37,8 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    margin: 20px
-    background-color: lightgrey;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .about-content {
@@ -68,7 +66,7 @@ nav ul li a {
 
 .about-images img {
     width: 70%;
-    border: 10px solid lightgrey;
+    border: 10px solid ;
     border-radius: 30px;
     cor
     object-fit: cover;
