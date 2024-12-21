@@ -38,7 +38,7 @@ nav ul li a {
     align-items: center;
     padding: 50px;
     max-width: 1200px;
-    margin: auto;
+    margin-bottom: 3em;
 }
 
 .about-content {
@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 .about-content p {
-    font-size: 08e.m;
+    font-size: .8em;
     line-height: 1.5;
 }
 
@@ -62,6 +62,7 @@ nav ul li a {
     width: 50%;
     display: flex;
     justify-content: center;
+    padding-bottom: 4em;
 }
 
 .about-images img {
@@ -78,8 +79,8 @@ nav ul li a {
 
 .image-2 {
     position: relative; /* Gambar kedua bertumpuk */
-    top: 60px;
-    left: 80px;
+    top: 7em;
+    left: 18em;
     z-index: 1;
 }
 
