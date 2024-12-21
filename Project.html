@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <title>Project</title>
+    <style> 
+        body, h1, h2, h3, h4, h5 {
+            font-family: "Raleway", sans-serif;
+        }
+
+        .header {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        .header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('./Assets/Foto Bareng UMKM 2.jpg') no-repeat center center;
+            background-size: cover;
+            filter: blur(.5rem);
+            z-index: -1;
+        }
+
+
+
+    </style>
+</head>
+<body class=" m-0" style="background-color: #edf2f7;">
+    <nav class="w-full flex items-center justify-center" style="height: 5rem; background-color: #222; color: white; font-weight: bold; position: fixed; top: 0; left: 0; z-index: 10;">
+        <ul class="flex items-center justify-center space-x-4 text-1xl">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Project.html">Project</a></li>
+            <li><a href="Team.html">Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>      
+
+    <div class="header">
+        <h1 class="text-5xl" style="font-family: fantasy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">OUR PROJECT</h1>
+        <h2 class="text-2xl">Group 2</h2>
+        <h1 style="font-size: larger; font-weight: 500; text-shadow: 2px;"> Securing E-Commerce: Memperketat Literasi Digital untuk Menghindari Penipuan Online</h1>
+    </div>
+
+    
+<!-- GALLERY START -->
+    <div class="py-6 sm:py-8 lg:py-12" style="background-color: #2e2d2d;">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+                <div class="mb-4 flex flex-col items-center justify-center gap-8 sm:mb-8 md:mb-12">
+                    <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white">Our Project</h2>
+    
+                    <p class="hidden max-w-screen-sm text-gray-500 dark:text-gray-300 md:block">
+                       Kelompok kami melakukan sosialisasi kepada orang-orang seperti UMKM, Pelajar, Guru, dll di sekitar kampus UNJ dan lingkungan rumah masing-masing.
+                    </p>
+                </div>
+    
+            </div>
+    
+            <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+                <!-- image - start -->
+                <div
+                    class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-[400px]">
+                    <img src="./Assets/Foto Bareng Anak Orang.jpg" loading="lazy" alt="Foto bersama anak orang" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+    
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+    
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Foto Bersama Anak Orang</span>
+                </div>
+                <!-- image - end -->
+    
+                <!-- image - start -->
+                <div 
+                    class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-[400px]">
+                    <img src="./Assets/Foto Bareng Guru.jpg" loading="lazy" alt="Foto bersama Guru" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+    
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+    
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Foto Bersama Guru</span>
+                </div>
+                <!-- image - end -->
+    
+                <!-- image - start -->
+                <div 
+                    class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-[400px]">
+                    <img src="./Assets/Foto Bareng UMKM 2.jpg" loading="lazy" alt="Foto bersama UMKM" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+    
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+    
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Foto Bersama UMKM</span>
+                </div>
+                <!-- image - end -->
+    
+                <!-- image - start -->
+                <div 
+                    class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-[400px]">
+                    <img src="./Assets/Foto Bareng Anak SMA 1.jpg" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+    
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+    
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Foto Bersama Anak SMA</span>
+                </d>
+                <!-- image - end -->
+            </div>
+        </div>
+    </div>
+<!-- GALLERY END -->
+
+<!-- POSTER START -->
+<div class="py-6 sm:py-8 lg:py-12" style="background-color: #2e2d2d; padding-top: 3rem; padding-bottom: 3rem;">
+    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <div class="mb-4 flex flex-col items-center justify-center gap-8 sm:mb-8 md:mb-12">
+            <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white">Poster</h2>
+            <p class="max-w-screen-md text-justify text-gray-500 dark:text-gray-300">
+                Dalam kegiatan sosialisasi yang kami lakukan, kami menggunakan poster sebagai media penyampaian informasi sekaligus menjelaskan secara langsung dalam mensosialisasikan terkait keamanan digital.
+            </p>
+        </div>
+
+        <div class="flex justify-center mt-8">
+            <div class="group relative overflow-hidden rounded-lg bg-gray-100 shadow-lg w-3/5 py-6 px-6 border-2 border-transparent bg-clip-border"
+            style="border-image: linear-gradient(to right, white, #2e2d2d) 1;">
+       
+           <img src="./Assets/poster.png" loading="lazy" alt="Poster/Infografis" 
+               class="w-full h-auto object-cover object-center transition duration-200 group-hover:scale-110" />
+           
+           <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+       </div>
+       
+            
+        <!-- image - end -->
+    </div>
+
+
+
+<!-- POSTER END -->
+        </div>
+    </div>
+    
+</body>
+</html>
