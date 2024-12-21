@@ -37,6 +37,7 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    margin: 20px
     background-color: lightgrey;
     max-width: 1200px;
     margin: 0 auto;
