@@ -13,7 +13,8 @@
             background-color: #f0f0f0;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 1200px;
             margin: auto;
             overflow: hidden;
         }
@@ -25,38 +26,27 @@
         }
         header h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 2em;
         }
         article {
             padding: 20px;
             background: #fff;
             margin-top: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
         }
         article h2 {
             color: #333;
             border-bottom: 2px solid #000102;
             padding-bottom: 10px;
+            font-size: 1.5em;
         }
-        article h3 {
+        article h3, article h4 {
             color: #000102;
             margin-bottom: 10px;
-            text-align: center;
-        }
-        article h4 {
-            color: #000102;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-        .center {
-            text-align: center;
-        }
-        .left {
-            text-align: left;
-        }    
-        article p {
             font-size: 1.2em;
+        }
+        article p {
+            font-size: 1em;
             color: #555;
             margin-bottom: 20px;
         }
@@ -68,11 +58,11 @@
         }
         .columns {
             display: flex;
-            justify-content: space-between;
-            text-align: left;
+            flex-wrap: wrap;
+            gap: 20px;
         }
         .column {
-            width: 48%;
+            flex: 1 1 calc(50% - 20px);
             background: #fff;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -83,6 +73,43 @@
             text-align: center;
             padding: 10px 0;
             margin-top: 20px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+            .container {
+                width: 95%;
+            }
+            article h2 {
+                font-size: 1.3em;
+            }
+            article h3, article h4 {
+                font-size: 1em;
+            }
+            article p {
+                font-size: 0.9em;
+            }
+            .columns {
+                flex-direction: column;
+            }
+            .column {
+                flex: 1 1 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 10px 0;
+            }
+            article {
+                padding: 15px;
+            }
+            footer {
+                padding: 5px 0;
+            }
         }
     </style>
 </head>
