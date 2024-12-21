@@ -68,7 +68,8 @@ nav ul li a {
 .about-images img {
     width: 70%;
     border: 10px solid lightgrey;
-    border-radius: 10px;
+    border-radius: 30px;
+    cor
     object-fit: cover;
 }
 
